@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-image: url("abdulla.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #ddd;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  .container { /* Optional for future layout flexibility */
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  tr{
+    height:50px;
+  }
+  .btn{
+    padding:4px;
+    background-color: rgb(157, 157, 207);
+    color:rgb(15, 105, 184);
+    font-size: larger;
+    font-weight: 500;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 1px;
+    border: 3px rgb(31, 31, 148);
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(aliceblue,rgb(88, 88, 164));
+  }
+  
+
+
+  
